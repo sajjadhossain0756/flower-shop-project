@@ -161,3 +161,31 @@
 .hot-deal-image img{
     width: 100%;
 }
+/* instagram styles start here */
+.instagram-container{
+    margin: 50px 100px;
+}
+.instagram-content{
+    text-align: center;
+}
+.instagram-content h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-content p{
+    width: 500px;
+    margin: 20px auto;
+}
+.instagram-images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.instagram-image{
+    width: 250px;
+}
+.instagram-image img{
+    width: 100%;
+}
