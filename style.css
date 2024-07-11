@@ -225,3 +225,25 @@
     padding: 18px 20px;
     font-size: 16px;
 }
+/* footer styles start here */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 550px;
+    text-align: center;
+}
+.footer-container h2{
+    font-size: 40px;
+    font-weight: 800;
+}
