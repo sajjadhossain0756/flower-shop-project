@@ -247,3 +247,189 @@ footer{
     font-size: 40px;
     font-weight: 800;
 }
+.hide{
+    display: none;
+}
+/* responsive styles for mobile devices */
+@media screen and (max-width:576px) {
+    /* hero-image section start here */
+
+     .hero-image-container{
+        flex-direction: column;
+         margin: 0px 10px;
+         padding: 20px 20px 0px 20px;
+      }
+     .hero-content-part{
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      .hero-content-part h1{
+        font-size: 25px;
+      }
+    /* feature section styles start here */
+     .feature-container{
+         margin: 20px 10px;
+         padding: 20px;
+      }
+      .feature-content h2{
+        font-size: 25px;
+      }
+      .feature-content p{
+        width: 100%;
+        margin: 25px auto;
+      }
+      .feature-images{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        }
+    /* support section styles start here */
+     .support-cards{
+        flex-direction: column;
+        margin: 20px 10px;
+        padding: 50px 10px;
+        gap: 35px;
+      }
+      .support-card{
+        width: 100%;
+        gap: 10px;
+      }
+    /* hot-deal section styles start here */
+     .hot-deal-section{
+        margin: 20px 0px;
+     }
+     .hot-deal-container{
+        flex-direction: column;
+        margin: 20px 10px ;
+        padding: 30px 0px;
+     }
+     .hot-deal-content{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .hot-deal-content h2{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    /* styles for instagram-image section */
+    .instagram-container{
+        margin: 20px 10px;
+    }
+    .instagram-content p{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .instagram-images{
+        flex-direction: column;
+    }
+    /* styles for latest-deal section */
+    .latest-deal-section{
+        height: 400px;
+        margin: 20px 10px;
+        background-image: none;
+        background-color: #e3ebdb;
+    }
+    .latest-input{
+        width: 360px;
+    }
+    .latest-input input{
+        width: 60%;
+        padding: 15px 10px;
+    }
+    .latest-input button{
+        width: 30%;
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    /* styles for footer section */
+    footer{
+        height: auto;
+        padding: 20px;
+    }
+    .footer-container{
+        width: 100%;
+       
+    }
+    
+}
+/* responsive design for midium device or tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* hero-image section start here */
+
+    .hero-image-container{
+        flex-direction: column;
+         margin: 0px 50px;
+         padding: 20px 20px 0px 20px;
+      }
+     .hero-content-part{
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    /* feature section styles start here */
+    .feature-container{
+            margin: 20px 50px;
+            padding: 30px;
+    }
+    .feature-content p{
+           width: 100%;
+           margin: 25px auto;
+    }
+    .feature-images{
+           flex-direction: column;
+           align-items: center;
+           gap: 20px;
+    }
+    /* support section styles start here */
+    .support-cards{
+            flex-direction: column;
+            margin: 20px 50px;
+            padding: 50px 30px;
+            gap: 35px;
+    }
+    .support-card{
+            width: 100%;
+            gap: 10px;
+    }
+    /* hot-deal section styles start here */
+    .hot-deal-section{
+        margin: 20px 0px;
+     }
+     .hot-deal-container{
+        flex-direction: column;
+        margin: 20px 10px ;
+        padding: 30px 0px;
+     }
+     .hot-deal-content{
+        width: 100%;
+        text-align: center;
+        padding: 60px;
+    }
+    /* styles for instagram-image section */
+    
+    .instagram-content p{
+        width: 100%;
+       
+    }
+    /* styles for latest-deal section */
+    .latest-deal-section{
+        height: 400px;
+        margin: 20px 10px;
+        background-image: none;
+        background-color: #e3ebdb;
+    }
+    .latest-input{
+        width: 360px;
+    }
+    .latest-input input{
+        width: 65%;
+        padding: 15px 10px;
+    }
+    .latest-input button{
+        width: 25%;
+        padding: 15px 10px;
+        font-size: 14px;
+    }   
+    
+}
